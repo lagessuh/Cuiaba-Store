@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Bootstrap 4 Example</title>
+    <title>Dourado Store</title>
     <meta charset ="utf-8">
     <meta name ="viewport" content="width-device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
@@ -11,14 +11,33 @@
 </head>
     <body>
         <!-- cabeçalho -->
-            <header width="100%" height="150px" style="background-color: green;">
+            <header>
+              <img src="BANNER-4427-x-1166_promocao-camisa-1-scaled.jpg" class="img-fluid" height="80%">
+              <!-- <div class="container-fluid h-100 d-inline-block" style="background-color: green;" >
+                <div class="row">
+                  <div class="col min-height-200">
+                    <img src="facebook (1).png" width="30" heigth="30">
+                    <img src="instagram.png" width="30" heigth="30">
+                    <img src="twitter.png" width="30" heigth="30">
+                    <img src="instagram.png" width="30" heigth="30">
+                    <img src="youtube.png" width="30" heigth="30">
+                  </div>
+                </div> -->
+
+
+              <!-- </div>
+              <div style="position: relative; top:0px; left:0px;">  
                 <img src="d66786833121.png" alt="imagem de um campo com jogadores do cuiabá" width="100%" height="100px">
+                <div style="position:absolute; top:5px; left:6px;">
+                  <img src="logo.png" width="50px" heigth="50px">
+                </div>
+              </div> -->
             </header>
             <!-- barrra de navegação -->
-            <nav class="navbar navbar-expand-lg navbar-light bg-warning" >
-                <a class="navbar-brand" href="#">
-                    <img src="logo.png" width="50" height="50" alt="">
-                </a>
+            <nav class="navbar navbar-expand-lg navbar-light bg-warning sticky-top" >
+                <!-- <a class="navbar-brand" href="#">
+                
+                </a> -->
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado" aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
                   <span class="navbar-toggler-icon"></span>
                 </button>
@@ -30,33 +49,125 @@
                 <div class="collapse navbar-collapse" id="conteudoNavbarSuportado">
                   <ul class="navbar-nav mr-auto">
                     <li class="nav-item active">
-                      <a class="nav-link" href="#">Home <span class="sr-only">(página atual)</span></a>
+                      <a class="nav-link" href="#" Style="color:black; font-family: Arboria, sans-serif">Home <span class="sr-only">(página atual)</span></a>
                     </li>
-                    <li class="nav-item">
+                    <!-- <li class="nav-item">
                       <a class="nav-link" href="#">Link</a>
-                    </li>
+                    </li> -->
                     <li class="nav-item dropdown">
-                      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        Dropdown
+                      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" Style="color:black; font-family: Arboria, sans-serif">
+                        Vestuário
                       </a>
                       <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="#">Ação</a>
-                        <a class="dropdown-item" href="#">Outra ação</a>
-                        <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="#">Algo mais aqui</a>
+                        <a class="dropdown-item" href="#">Agasalhos, Jaquetas e camisas térmicas</a>
+                        <a class="dropdown-item" href="#">Bermudas e calções</a>
+                        <a class="dropdown-item" href="#">Calças</a>
+                        <a class="dropdown-item" href="#">Camisas</a>
+                        <a class="dropdown-item" href="#">Regatas</a>
                       </div>
                     </li>
-                    <li class="nav-item">
-                      <a class="nav-link disabled" href="#">Desativado</a>
+
+                    <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" Style="color:black; font-family: Arboria, sans-serif">
+                        Acessórios
+                      </a>
+                      <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">Bolsas, mochilas e malas</a>
+                        <a class="dropdown-item" href="#">Bonés</a>
+                        <a class="dropdown-item" href="#">Carteira</a>
+                        <a class="dropdown-item" href="#">Chaveiros</a>
+                        <a class="dropdown-item" href="#">Quadros</a>
+                        <a class="dropdown-item" href="#">Relógios</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">Miniaturas</a>
+                      </div>
                     </li>
+
+                    <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" Style="color:black; font-family: Arboria, sans-serif">
+                        Calçados
+                      </a>
+                      <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">Cuiabanas</a>
+                        <a class="dropdown-item" href="#">Meias e Meiões</a>
+                      </div>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" Style="color:black; font-family: Arboria, sans-serif">
+                        Utensílios
+                      </a>
+                      <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">Caneca</a>
+                        <a class="dropdown-item" href="#">Chimarrão</a>
+                        <a class="dropdown-item" href="#">Churrasco</a>
+                        <a class="dropdown-item" href="#">Cooler</a>
+                        <a class="dropdown-item" href="#">Cordão</a>
+                        <a class="dropdown-item" href="#">Squeezes</a>
+                        <a class="dropdown-item" href="#">Taças</a>
+                        <a class="dropdown-item" href="#">Tereré</a>
+                      </div>
+                    </li>
+
+                    <li class="nav-item" >
+                      <a class="nav-link" href="#" Style="color:black; font-family: Arboria, sans-serif">Linha Pet</a>
+                    </li>
+
+                    <li class="nav-item">
+                      <a class="nav-link" href="#" Style="color:black; font-family: Arboria, sans-serif">Torcida Baby</a>
+                    </li>
+
+                    <li class="nav-item">
+                      <a class="nav-link" href="#" Style="color:black; font-family: Arboria, sans-serif">Personalizações</a>
+                    </li>
+
+
+                    <!-- <li class="nav-item">
+                      <a class="nav-link disabled" href="#">Desativado</a>
+                    </li> -->
                   </ul>
                   <form class="form-inline my-2 my-lg-0">
-                    <input class="form-control mr-sm-2" type="search" placeholder="Pesquisar" aria-label="Pesquisar">
-                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Pesquisar</button>
+                    <input class="form-control mr-sm-2" type="search" placeholder="Pesquisar" aria-label="Pesquisar" Style="font-family: Arboria, sans-serif">
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit" Style="font-family: Arboria, sans-serif">Pesquisar</button>
                   </form>
                 </div>
               </nav>
+              
+              <br><br>
+              <div class="container ">
+                <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                  <!-- <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                  </ol> -->
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <img class="d-block w-100" src="um.png" alt="Primeiro Slide">
+                    </div>
+                    <div class="carousel-item">
+                      <img class="d-block w-100" src="dois.png" alt="Segundo Slide">
+                    </div>
+                    <div class="carousel-item">
+                      <img class="d-block w-100" src="tres.png" alt="Terceiro Slide">
+                    </div>
+                    <div class="carousel-item">
+                      <img class="d-block w-100" src="quatro.png" alt="Terceiro Slide">
+                    </div>
+                  </div>
+                  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Anterior</span>
+                  </a>
+                  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Próximo</span>
+                  </a>
+                </div>
+                <img src="tela.png" class="img-fluid">
+              </div>
 
+              <br><br><br><br>
     </body>
 </html>
 
